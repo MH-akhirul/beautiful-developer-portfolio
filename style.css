@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.flexiable-container {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+    padding: 0 5%;
+}
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* welcome section css */
+.welcome-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+.right-side img {
+    width: 100%;
+}
+span {
+    color:orange ;
+}
+/* dream section css */
+.Dream-section {
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 30px 0;
+}
+
+/* exprience-section css */
+.exprience-section {
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 30px 0;
+}
+
+
+.ex-item {
+    /* border: 1px solid gray; */
+    margin: 0 5% ;
+    padding: 2%;
+    box-shadow: 12px  12px 20px
+    lightgray;
+    
+}
+h2 {
+    color: red;
+}
+
+#item-1 {
+    border-left: 5px solid ;
+    border-image: linear-gradient(red,blue);
+    border-image-slice: 1;
+}
+#item-2 {
+    border-left: 5px solid ;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+/* footer section */
+p {
+    text-align: center;
+}
